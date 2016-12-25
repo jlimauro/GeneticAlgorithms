@@ -17,7 +17,7 @@ function Population() {
       }
     }
     
-    createP(maxFit);
+    //createP(maxFit);
 
     for (var i = 0; i < this.popsize; i++) {
       this.rockets[i].fitness /= maxFit;

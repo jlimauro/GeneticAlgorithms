@@ -6,9 +6,9 @@ var count = 0;
 var target;
 var maxForce = 0.2;
 
-var rx= 100;
+var rx= 125;
 var ry = 150;
-var rw = 200;
+var rw = 150;
 var rh = 10;
 
 function setup() {
@@ -32,7 +32,7 @@ function draw() {
   }
   
   fill(255);
-  rect(100,150,200,10); 
+  rect(rx,ry,rw,rh); 
 
   ellipse(target.x, target.y, 16, 16);
 }
